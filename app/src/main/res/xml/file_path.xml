@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path
+        name="app_update"
+        path="/camerademo"/>
+    <!--Environment.getExternalStorageDirectory的路径-->
+    
+    <external-cache-path
+        name="."
+        path="/"/>
+    <!--Context.getExternalCacheDir()返回的地址-->
+
+
+    <external-files-path
+        name="."
+        path="/"/>
+    <!--Context.getExternalFilesDir(String)/Context.getExternalFilesDir(null) 返回的地址-->
+    <cache-path
+        name="/"
+        path="/"/>
+    <!--getCacheDir()获取的路径-->
+
+    <files-path
+        name="/"
+        path="/"/>
+    <!--Context.getFileDir()获取的路径-->
+</paths>
