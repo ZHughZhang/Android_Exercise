@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="0dp"
+    >
+
+    <ProgressBar
+        android:id="@+id/dp_download_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+    <!--<cn.bingoogolapple.progressbar.BGAProgressBar-->
+        <!--android:id="@+id/dp_download_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:max="100"-->
+        <!--android:layout_margin="32dp"-->
+        <!--app:bga_pb_isCapRounded="true"-->
+        <!--app:bga_pb_mode="circle"-->
+        <!--app:bga_pb_radius="48dp"-->
+        <!--app:bga_pb_reachedColor="@color/colorPrimaryDark"-->
+        <!--app:bga_pb_reachedHeight="8dp"-->
+        <!--app:bga_pb_textColor="@color/colorPrimary"-->
+        <!--app:bga_pb_textSize="18sp"-->
+        <!--app:bga_pb_unReachedColor="#ecf0f1"-->
+        <!--app:bga_pb_unReachedHeight="4dp" />-->
+
+</android.support.v7.widget.CardView>

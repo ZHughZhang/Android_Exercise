@@ -1,0 +1,51 @@
+ext {
+    android = [
+
+            compileSdkVersion: 28,
+//        # buildToolsVersion  = ""
+            minSdkVersion: 14,
+            targetSdkVersion: 28,
+            versionCode: 1,
+            versionName: "1.0"
+    ]
+
+
+    dependVersion = [
+            support: "28.0.0"
+    ]
+
+    dependencies = [
+
+            // --------------------- Android ------------------------
+            "supportV4": "com.android.support-v4:${dependVersion.support}",
+            "appcompat": "com.android.support:appcompat-v7:${dependVersion.support}",
+            "design"   : "com.android.support:design:${dependVersion.support}",
+            "constraint":"com.android.support.constraint:constraint-layout:1.1.3",
+            "junit"    : "junit:junit:4.12",
+            "runner"   : "com.android.support.test:runner:1.0.2",
+            // --------------------- 测试 ------------------------
+            "espresso" : "com.android.support.test.espresso:espresso-core:3.0.2",
+
+            // --------------------- 网络请求 ------------------------
+            "retrofit":"com.squareup.retrofit2:retrofit:2.5.0",
+            "converter_gson":"com.squareup.retrofit2:converter-gson:2.5.0",
+            "adapter_rxjava2" : "com.squareup.retrofit2:adapter-rxjava2:2.5.0",
+
+
+
+            // --------------------- 图片加载 ------------------------
+
+            // --------------------- RxAndroid ------------------------
+            "rxjava": "io.reactivex.rxjava2:rxjava:2.2.8",
+            "rxandroid": "io.reactivex.rxjava2:rxandroid:2.1.1"
+
+            // --------------------- Json解析 ------------------------
+
+            // --------------------- log工具类 ------------------------
+
+            // --------------------- BufferKnife ------------------------
+
+            // --------------------- LeakCanary ------------------------
+
+    ]
+}
